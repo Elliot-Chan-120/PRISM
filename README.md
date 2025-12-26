@@ -2,7 +2,7 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&duration=2000&pause=1000&color=B48EAD&width=550&lines=Screen.+Repair.+Interpret.+Repeat.)](https://git.io/typing-svg)
 
 A CLI-based bioinformatics framework for gene variant pathogenicity screening and computational gene therapy candidate identification.
-Integrates an AI interpreter to generated biologically grounded hypotheses based on PRISM result data, and proposes experimental follow-ups.
+Integrates an AI interpreter to generate biologically grounded hypotheses based on PRISM result data, and proposes experimental follow-ups.
 
 PRISM is designed as a research & prototyping tool, emphasizing result interpretability and understanding, reproducibility and future scope identification rather than autonomous decision-making.
 
@@ -95,9 +95,10 @@ Install dependencies with:
 pipenv install
 ```
 
-Install PRISM in editable mode:
+Activate a virtual environment and install PRISM in editable mode:
 
 ```
+pipenv shell
 pip install -e .
 ```
 You can now access this program from anywhere in the terminal and go into the source file yourself and play around with the AI prompt or interpretation logic.
@@ -126,10 +127,10 @@ PS C:\Users\Elliot> prism screen benchmark
 ===[[Initializing File Diagnostic]]===
 selecting model: clinicmod
 validating input fasta file: benchmark.fasta
-found in gene_databank | now loading C:\Users\Elliot\BIOINFORMATICS FOLDER\PATHFINDER\src\prism\gene_databank\benchmark.fasta...
+found in gene_databank | now loading C:\Users\Elliot\BIOINFORMATICS FOLDER\PRISM\src\prism\gene_databank\benchmark.fasta...
 ===[[Diagnostic Completed]]===
 
-Screening variant file: C:\Users\Elliot\BIOINFORMATICS FOLDER\PATHFINDER\src\prism\gene_databank\benchmark.fasta
+Screening variant file: C:\Users\Elliot\BIOINFORMATICS FOLDER\PRISM\src\prism\gene_databank\benchmark.fasta
 Loading ClinicalModel Sift: 8442 bytes
 [Extracting highest prob. AA sequences]: 100%|██████████████████████████████████████████| 1/1 [00:00<00:00, 665.23it/s]
 [Generating AA chain mutation fingerprints]: 100%|███████████████████████████████████████| 1/1 [00:00<00:00, 40.21it/s]
