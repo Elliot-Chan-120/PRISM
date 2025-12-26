@@ -368,7 +368,6 @@ class ReGen:
         """
         self.readable_text(export_data)
 
-        self.fasta_file(export_data)
 
     def readable_text(self, export_data):
         """
