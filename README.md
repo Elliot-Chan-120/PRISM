@@ -1,5 +1,6 @@
 ## PRISM
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&duration=2000&pause=1000&color=B48EAD&width=550&lines=Screen.+Repair.+Interpret.+Repeat.)](https://git.io/typing-svg)
+
 A CLI-based bioinformatics framework for gene variant pathogenicity screening and computational gene therapy candidate identification.
 Integrates an AI interpreter to generated biologically grounded hypotheses based on PRISM result data, and proposes experimental follow-ups.
 
